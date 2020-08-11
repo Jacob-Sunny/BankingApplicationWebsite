@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title> Online Banking Application</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/Login.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div class="sidenav">
+  <div class="login-main-text">
+    <h2>Online Banking<br>
+    <p>Login or register from here to access your bank.</p>
+  </div>
+
+</div>
+
+<div class="main">
+  <div class="col-md-6 col-sm-12">
+    <div class="login-form">
+
+        <div class="form-group">
+          <label>User Name</label>
+          <input type="text" class="form-control" placeholder="User Name">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" class="form-control" placeholder="Password">
+        </div>
+        <button type="button" onclick="submit();" class="btn btn-black">Login</button>
+        <button type="button" onclick="submit2();" class="btn btn-secondary">Register</button>
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+  function submit() {
+    window.location ="bank.html";
+  }
+
+  function submit2(){
+    window.location ="registration.html";
+  }
+
+</script>
+
+
+</body>
+
+
+
+</html>
