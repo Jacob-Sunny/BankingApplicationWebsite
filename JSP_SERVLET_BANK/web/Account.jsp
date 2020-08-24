@@ -1,3 +1,4 @@
+<%@ page import="Account.Account" %>
 <%--
   Created by IntelliJ IDEA.
   User: jacob
@@ -57,7 +58,7 @@
   <button type="button" class="btn btn-success" onclick="openForm()">Add Account</button>
 
   <div class="form-popup" id="myForm">
-    <form action="" class="form-container">
+    <form action="Account" class="form-container" method="post">
       <h1>Add an Account</h1>
 
       <label for="account"><b>Account</b></label>
